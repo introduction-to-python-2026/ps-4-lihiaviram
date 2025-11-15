@@ -12,7 +12,6 @@ def split_before_each_uppercases(formula):
                   new_formula.append(word)
                   word=formula[index]
                   index+=1
-
        new_formula.append(word)
        return new_formula
 
