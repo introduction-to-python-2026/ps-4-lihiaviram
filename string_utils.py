@@ -9,9 +9,9 @@ def split_before_each_uppercases(formula):
                 word+=formula[index]
                 index+=1
              elif formula[index].isupper():  
-                    new_formula.append(word)
-                    word=formula[index]
-                    index+=1
+                  new_formula.append(word)
+                  word=formula[index]
+                  index+=1
 
        new_formula.append(word)
        return new_formula
