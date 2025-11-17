@@ -2,6 +2,8 @@ def split_before_each_uppercases(formula):
      word=""
      index=1
      new_formula=[]
+     if not formula:
+        return []
      if formula[0].isupper():
         word+=formula[0]
         while index < len(formula):
