@@ -4,7 +4,7 @@ def split_before_each_uppercases(formula):
      new_formula=[]
      if formula[0].isupper():
         word+=formula[0]
-        while index < len(formula) :
+        while index < len(formula):
               if formula[index].isupper()==False:
                  word+=formula[index]
                  index+=1
