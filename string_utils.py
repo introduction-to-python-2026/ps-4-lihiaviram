@@ -19,7 +19,7 @@ def split_at_first_digit(formula):
     word=""
     num=""
     for split in formula:
-        if split.isdighit():
+        if if split.isdigit():
             num+=split
         else:
             word+=split
